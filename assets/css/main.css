@@ -1,7 +1,50 @@
 /* custom styles */
 
+.navbar {
+	background-color: #efb95b;
+	height: 60px;
+}
 
-body {
+.header_name {
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.title {
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 20px;
+}
+
+.linkedin {
+	height: 35px;
+  width: 35px;
+}
+
+.github {
+	height: 32px;
+  width: 32px;
+}
+
+.introduction {
+	background-color: white;
+	background-image: url("../imgs/background_aboutme.png");
+}
+
+.profile_image {
+	height: 260px;
+	width: 290px;
+}
+
+.all_content {
+	margin-top: 40px;
+}
+
+.about_me {
+	background-color: white;
+	margin-top: 20px;
+}
+/*body {
 	background-color: blue;
 	background-image: url("https://wallpapercave.com/wp/j77l1TC.jpg");
 	background-size: cover;
@@ -48,4 +91,4 @@ p {
 	text-align: center;
 	font-size: 22px;
 	font-family: Comic Sans MS;
-}
+}*/
