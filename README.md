@@ -1,120 +1,71 @@
-# Learn Git Training
+# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
-This assignment has 2 goals: it lets you practice using Git and GitHub, and also gives you practice creating a site.
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-1. Create a fork of the [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
+## Preview
 
-  ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
+[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
 
-2. You'll see a screen like the one below while GitHub is forking the repo. Forking creates a copy of the original repo on your own GitHub account. The forked repo is still online only and not on your computer.
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
 
-  ![forking](https://cloud.githubusercontent.com/assets/6520345/17570801/c0d27e36-5f02-11e6-8d44-f485301831ed.png)
+## Status
 
-3. Now you have your own copy of the repo! In order to make this a live personal website, we're going to take advantage of GitHub's [*GitHub pages*](https://pages.github.com/) feature. All we need to do is change the repository name to `<fill in your GitHub username>.github.io`. Here's how:
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
 
-  * Click on the settings tab toward the top of the page: ![settings tab](https://cloud.githubusercontent.com/assets/6520345/17564907/fc20986a-5ee9-11e6-8e7f-abc19c482a7b.png)
-  * Find the repository name section and change it to `<username>.github.io` ![change repo name](https://cloud.githubusercontent.com/assets/6520345/17564950/2a69081a-5eea-11e6-8d17-8017954d8ad7.png)
-  * Click the rename button.
+## Download and Installation
 
-4. Go to the website `<username>.github.io`!  You have a web presence now!! It's not perfect, but it will be a work in progress over the whole course and it's an excellent start! If you want to change the content, you're going to need a copy on your own computer to edit and improve.
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
+* Install via npm: `npm i startbootstrap-freelancer`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
 
->If your site isn't showing up, that's somewhat normal. You can try going back to the settings tab, and changing the theme of your page, which sometimes works to make the site show up. (Just go back and change the theme back after the page has shown up on github.io.)
+## Usage
 
-5. Click the clone or download button and copy the "clone URL."
+### Basic Usage
 
-  ![clone button](https://cloud.githubusercontent.com/assets/6520345/17565250/87ec41b8-5eeb-11e6-8fc8-280aa6e14611.png)
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-  ![clone url](https://cloud.githubusercontent.com/assets/6520345/17565297/bc8e85ca-5eeb-11e6-870d-3029f9f7ed5b.png)
+### Advanced Usage
 
-6. On your own computer, make a `wdi` directory in your home folder (`~`). This is where you will put all your work from this class. You can complete this in one command:
-  ```
-  ➜ mkdir ~/wdi
-  ```
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-7. Use the "clone URL" to clone the repo onto your local machine. Make sure you're in your `~/wdi` directory before you clone!
+#### Gulp Tasks
 
-  ```zsh
-  ➜  cd ~/wdi
-  ➜  git clone <clone-url>
-  ```
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-8. Change directories into the repo you just cloned (in this example, `<username>.github.io`).
+## Bugs and Issues
 
-  ```zsh
-  ➜  cd <username>.github.io
-  ```
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-9. Open this project in Atom.
+## Custom Builds
 
-  ```zsh
-  atom .
-  ```
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-10. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
+## About
 
-  <details>
-    <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
-    <p>
-    There are two stylesheets, normalize.css and main.css. normalize.css is in the vendor/css folder because it's a file developed by somebody else (a vendor) and you won't be editing it. main.css is in the assets/css folder and is the custom styling that you'll spend time adjusting.
-    </p>
-  </details>
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-  <details>
-    <summary>
-    In the head element, change the title of the page. Where can you observe the impact of this change?
-    </summary>
-    <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
-  </details>
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-  <details>
-    <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
-    <p>
-    You'd want to write your custom JS in the assets/js/app.js file. Once this file grows big enough you might want to create new JS files in the assets/js folder.
-    </p>
-  </details>
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-11. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-12. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-  ```zsh
-  ➜  git status
-  ```
-  This shows you the files that have been modified, created, or deleted. Notice that they are listed as `untracked`.
+## Copyright and License
 
-13. Now you're ready to `add` your changes. Type
-  ```
-  ➜  git add .
-  ```
-  Now enter `git status`. Notice that your new file has gone from `untracked` to `Changes to be committed`.
-
-14. Next step is committing. Type the following:
-
-  ```
-  ➜  git commit -m "first edits to index.html"
-  ```
-  Now enter `git status` again. Notice that the new status is `Your branch is ahead of 'origin/master' by 1 commit.`. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
-
-15. To get your changes on to the remote version of the repo, type
-
-  ```
-  ➜  git push origin master
-  ```
->***Note:*** *`origin` is the given name of the remote repository hosted on GitHub. `master` is the name of the main branch within the repository. (Typically `master` is the branch you update when you're ready to publish changes to the world.)*
-
-  Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
-
-16. Check back in on your site to see the improvements deployed!
-
-17. Repeat the git commit workflow each time you want to update your repository. Make sure to include a good commit message!
-
-# Deliverables
-
-On Friday, we will be having a feedback session on your progress on the personal portfolio project. By then we expect to see:
-
-* An updated README.md file. A readme is like the cover to the book of code you've written for this site. Don't publish a book without a cover! Describe this project in a few sentences - what are you trying to achieve with this page, what technologies are you using, etc. [This is a decent template](https://gist.github.com/zenorocha/4526327) for the way that a readme often looks. Make sure to link to the live site and include some sort of image (logo or screenshot). If you need help writing markdown language (the reason the file ends in `.md`), check out [this guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-* A "My work" section of the page that includes (or will include) links to all repos that contain homework deliverables.
-* A "Contact me" section of the page that includes (at least) a way to email you, a link to your GitHub profile, and a link to your LinkedIn profile.
-* Some custom HTML, CSS, JS, and images. Put your own personal flare on the page and add some customizations. These could be really simple changes that add a bit of your aesthetic or they could be larger features like a navbar, a footer, a photo carousel, bootstrap integration, event listeners, or CSS animations. [Google for personal websites](https://www.google.com/search?q=personal+website&espv=2&biw=1280&bih=612&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjx-Krl6bfOAhUUI2MKHaoPDUEQsAQIQA&dpr=2#imgrc=OOkEvdqZczSU-M%3A), find one that you like, and imitate it!
-
-We're really looking forward to seeing what you've built by Friday! Please reach out to your peers or instructors if you need help making progress on this project.
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
